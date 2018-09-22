@@ -4,7 +4,12 @@
 from Tkinter import *
 import time
 
-import Fonctions as fc , ForceBrute as fb, ParcoursEnProfondeur as pep, ParcoursEnLargeur as pel, plateau as pl, ParcoursEnProfondeurAmeliore as pepa
+import Fonctions as fc 
+import ForceBrute as fb
+import ParcoursEnProfondeur as pep
+import ParcoursEnLargeur as pel
+import plateau as pl
+import ParcoursEnProfondeurAmeliore as pepa
 
 class Menu(Frame):
 	''' Classe definissant un menu
