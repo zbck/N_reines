@@ -108,9 +108,10 @@ class Menu(Frame):
 			except:
 				pass
 
-fenetre = Tk()
-Number = IntVar()
-Algorithme = StringVar()
-a1 = Menu(fenetre)
-a1.mainloop()
+if __mane__ == '__main__':
+	fenetre = Tk()
+	Number = IntVar()
+	Algorithme = StringVar()
+	a1 = Menu(fenetre)
+	a1.mainloop()
 
